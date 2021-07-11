@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,6 +38,43 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- 1.dependency for view JSP file -->
+		<dependency>
+	        <groupId>org.apache.tomcat.embed</groupId>
+	        <artifactId>tomcat-embed-jasper</artifactId>
+	        <scope>provided</scope>
+   		 </dependency>
+
+	    <dependency>
+	        <groupId>javax.servlet</groupId>
+	        <artifactId>jstl</artifactId>
+	    </dependency>
+	    <!-- 1. -->
+	   
+	    <!-- 2. dependency for bootstrap and JQuery  -->
+	    <dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>bootstrap</artifactId>
+		    <version>5.0.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>jquery</artifactId>
+		    <version>3.6.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>bootstrap-datepicker</artifactId>
+		    <version>1.0.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>webjars-locator</artifactId>
+		    <version>0.40</version>
+		</dependency>
+	    <!-- 2. -->
+	    
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
