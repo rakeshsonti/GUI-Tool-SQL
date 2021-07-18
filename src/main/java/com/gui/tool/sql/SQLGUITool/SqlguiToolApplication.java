@@ -8,6 +8,7 @@ public class SqlguiToolApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SqlguiToolApplication.class, args);
+		
 	}
 
 }

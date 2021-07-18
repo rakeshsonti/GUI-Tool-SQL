@@ -48,10 +48,9 @@ $(function() {
         $('#pop16').toggle();
     });
 });
-
-
-
-
+/* drag div js*/
+$("#firstDiv").resizable();
+$("#secondDiv").resizable();
 
 
 

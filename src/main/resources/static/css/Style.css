@@ -13,7 +13,7 @@
     position:absolute;
     z-index: 99999;
     padding: 10px;
-    background: #3AB9AE;
+    background: gray;
     border: 1px solid #A2ADBC;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -21,3 +21,38 @@
     -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
     box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
 }
+/* sub header hover drop down */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+/* body div css */
+ #mainDiv{
+	display:flex;
+	flex-direction:row;
+	height:100% ;
+	width:100%;
+	position:absolute;
+}
+#firstDiv{
+	background-color:lime;
+	height:100% ;
+	width:30%;
+	border:3px solid #808080;
+	resize: both;
+  	overflow: auto;
+}
+#secondDiv{
+	background-color:#ffff80;
+	height:100%;
+	width:70%;
+	border:3px solid #808080;
+	resize: both;
+  	overflow: auto;
+} 
+
+
+
